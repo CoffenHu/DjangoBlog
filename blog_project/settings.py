@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'usera',
     'markdown2',
     'pygments',
+    'community',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -52,6 +53,7 @@ MIDDLEWARE_CLASSES = [
     'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    #'django.contrib.flatpages.models.FlatPage ',
 ]
 
 ROOT_URLCONF = 'blog_project.urls'

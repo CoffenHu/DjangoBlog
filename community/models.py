@@ -25,7 +25,7 @@ class Post(models.Model):
 
     class Meta:
         ordering = ['-published_time', ]
-        verbose_name_plural = u'Post XX'
+        verbose_name_plural = u'发贴'
 
     def __str__(self):
         return self.title
